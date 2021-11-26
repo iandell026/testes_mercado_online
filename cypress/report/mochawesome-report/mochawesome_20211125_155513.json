@@ -1,0 +1,186 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 3,
+    "passes": 3,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-25T18:54:23.585Z",
+    "end": "2021-11-25T18:55:13.293Z",
+    "duration": 49708,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "fe6f129f-8979-43e1-b813-e1d5d1b37f09",
+      "title": "",
+      "fullFile": "cypress/integration/01-cdusuario.spec.js",
+      "file": "cypress/integration/01-cdusuario.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "4bcb9c84-d79b-4134-aad3-de6248fee3c5",
+          "title": "Testes Front Mercado Online - CADASTRO DE USUARIO",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "66aa01d5-f419-4184-8c10-0f11be03ec89",
+              "title": "Testes cadastro de usuário/Positivos",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Deve verificar se os campos para cadastro de pessoa física estão adequados",
+                  "fullTitle": "Testes Front Mercado Online - CADASTRO DE USUARIO Testes cadastro de usuário/Positivos Deve verificar se os campos para cadastro de pessoa física estão adequados",
+                  "timedOut": null,
+                  "duration": 9907,
+                  "state": "passed",
+                  "speed": "medium",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_mercado_cdusuario.default.verificarCadastroPessoaFisica();",
+                  "err": {},
+                  "uuid": "d5c017e1-a0a2-453d-9e67-dd81822fb3b4",
+                  "parentUUID": "66aa01d5-f419-4184-8c10-0f11be03ec89",
+                  "isHook": false,
+                  "skipped": false
+                },
+                {
+                  "title": "Deve realizar o cadastro de uma pessoa física com sucesso",
+                  "fullTitle": "Testes Front Mercado Online - CADASTRO DE USUARIO Testes cadastro de usuário/Positivos Deve realizar o cadastro de uma pessoa física com sucesso",
+                  "timedOut": null,
+                  "duration": 28456,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_mercado_cdusuario.default.realizarCadastroPessoaFisica();\ncy.wait(5000);",
+                  "err": {},
+                  "uuid": "bf895d30-e93a-4559-939a-b047e23451b7",
+                  "parentUUID": "66aa01d5-f419-4184-8c10-0f11be03ec89",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "d5c017e1-a0a2-453d-9e67-dd81822fb3b4",
+                "bf895d30-e93a-4559-939a-b047e23451b7"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 38363,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "9ab02840-19ee-417e-b437-2fed3313363f",
+              "title": "Testes cadastro de usuário/Negativos",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Deve realizar o cadastro de uma pessoa com cpf inválido",
+                  "fullTitle": "Testes Front Mercado Online - CADASTRO DE USUARIO Testes cadastro de usuário/Negativos Deve realizar o cadastro de uma pessoa com cpf inválido",
+                  "timedOut": null,
+                  "duration": 10982,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_mercado_cdusuario.default.campoCpfInvalido();",
+                  "err": {},
+                  "uuid": "0b2b2ea0-25bd-4e6b-bf5d-c518454a25a4",
+                  "parentUUID": "9ab02840-19ee-417e-b437-2fed3313363f",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "0b2b2ea0-25bd-4e6b-bf5d-c518454a25a4"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 10982,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "yyyymmdd_HHMMss",
+        "reportTitle": "Relatório",
+        "cdn": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}

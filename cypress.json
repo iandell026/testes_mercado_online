@@ -1,1 +1,18 @@
-{}
+{ 
+    "baseUrl" : "https://701523.commercesuite.com.br",
+    "video": false,
+    "screenShot": false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp" : "yyyymmdd_HHMMss",
+	    "reportTitle" : "Relatório",
+		"cdn" : true,
+		"charts" : true
+    },
+    "viewportWidth": 1520,
+    "viewportHeight": 880
+}

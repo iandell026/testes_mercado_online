@@ -1,0 +1,167 @@
+{
+  "stats": {
+    "suites": 3,
+    "tests": 2,
+    "passes": 2,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-11-25T18:57:00.388Z",
+    "end": "2021-11-25T18:57:39.647Z",
+    "duration": 39259,
+    "testsRegistered": 2,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "91e2c9ca-3abf-4c11-ae31-1aff3ee44788",
+      "title": "",
+      "fullFile": "cypress/integration/04-carrinho.spec.js",
+      "file": "cypress/integration/04-carrinho.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "e02e9dbd-9fe7-4f39-9590-88fb6a5113e6",
+          "title": "Testes Front Mercado Online - CARRINHO",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [],
+          "suites": [
+            {
+              "uuid": "158f5665-2df6-48f4-957d-ce7d3c3a8898",
+              "title": "Testes de carrinho/Positivos",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Deve adicionar itens ao carrinho e realizar validações no modal e na página do carrinho com sucesso",
+                  "fullTitle": "Testes Front Mercado Online - CARRINHO Testes de carrinho/Positivos Deve adicionar itens ao carrinho e realizar validações no modal e na página do carrinho com sucesso",
+                  "timedOut": null,
+                  "duration": 21188,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_mercado_carrinho.default.adicionarItemCarrinho();\n_mercado_carrinho.default.modalCarrinho();\n_mercado_carrinho.default.paginaCarrinho();",
+                  "err": {},
+                  "uuid": "e569d70c-702b-4b5c-bf0f-e8120ecce0c2",
+                  "parentUUID": "158f5665-2df6-48f4-957d-ce7d3c3a8898",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "e569d70c-702b-4b5c-bf0f-e8120ecce0c2"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 21188,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            },
+            {
+              "uuid": "5d34b578-1a2d-4aa0-9e9c-27f4a5443a10",
+              "title": "Testes de carrinho/Negativos",
+              "fullFile": "",
+              "file": "",
+              "beforeHooks": [],
+              "afterHooks": [],
+              "tests": [
+                {
+                  "title": "Deve adicionar itens ao carrinho e inserir um CEP inválido no frete",
+                  "fullTitle": "Testes Front Mercado Online - CARRINHO Testes de carrinho/Negativos Deve adicionar itens ao carrinho e inserir um CEP inválido no frete",
+                  "timedOut": null,
+                  "duration": 17792,
+                  "state": "passed",
+                  "speed": "slow",
+                  "pass": true,
+                  "fail": false,
+                  "pending": false,
+                  "context": null,
+                  "code": "_mercado_carrinho.default.compraCepInvalido();",
+                  "err": {},
+                  "uuid": "af6b40cf-f5f1-45a1-9273-d00705c03180",
+                  "parentUUID": "5d34b578-1a2d-4aa0-9e9c-27f4a5443a10",
+                  "isHook": false,
+                  "skipped": false
+                }
+              ],
+              "suites": [],
+              "passes": [
+                "af6b40cf-f5f1-45a1-9273-d00705c03180"
+              ],
+              "failures": [],
+              "pending": [],
+              "skipped": [],
+              "duration": 17792,
+              "root": false,
+              "rootEmpty": false,
+              "_timeout": 2000
+            }
+          ],
+          "passes": [],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 0,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.0.1"
+    },
+    "marge": {
+      "options": {
+        "reportDir": "cypress/report/mochawesome-report",
+        "overwrite": false,
+        "html": false,
+        "json": true,
+        "timestamp": "yyyymmdd_HHMMss",
+        "reportTitle": "Relatório",
+        "cdn": true,
+        "charts": true
+      },
+      "version": "6.0.1"
+    }
+  }
+}
